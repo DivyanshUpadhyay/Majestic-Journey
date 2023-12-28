@@ -3,6 +3,7 @@
     background-color: #003580;
     display: flex;
     justify-content: center;
+    height: max-content;
 }
 
 .navContainer{
@@ -18,18 +19,23 @@
     font-weight: 500;
     color: white;
     text-decoration: none;
+    
 }
-.logo-new{
+.logo-new>img{
     font-size: 20px;
     font-weight: 500;
     color: white;
     text-decoration: none;
+    margin-top: 20px;
 }
 .navButton{
     margin: 20px;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     cursor: pointer;
-    color: #003580;
+    background-color: rgba(0, 0, 255, 0.747);
+    color: white;
     font-size: 15px;
+    border-radius: 10px;
+    font-weight:900;
 }

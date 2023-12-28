@@ -1,1 +1,1 @@
-# Yaatra
+#Majestic-Journey
